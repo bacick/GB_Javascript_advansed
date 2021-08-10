@@ -111,7 +111,7 @@ class ProductItemCart {
 let list = new ProductsList();
 let button = document.querySelector('.btn-cart');
 const buttonCart = () => {
- /*    document.querySelector('.cart').style.display = "felx"; */
+    document.querySelector('.cart').style.display = "block";
     let cart = new Cart();
 }
 button.addEventListener('click', buttonCart, { once: true });
