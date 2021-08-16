@@ -11,13 +11,14 @@
     <header>
         <div class="logo">E-shop</div>
         <div class="cart">
-            <filter></filter>
-        <!-- <form action="#" class="search-form" @submit.prevent="filter">
+
+            <!-- <form action="#" class="search-form" @submit.prevent="filter">
                 <input type="text" class="search-field" v-model="userSearch">
                 <button type="submit" class="btn-search">
                     <i class="fas fa-search"></i>
                 </button>
             </form> -->
+            <find></find>
             <button class="btn-cart" type="button" @click="showCart = !showCart">Корзина</button>
             <div class="cart-block" v-show="showCart">
                 <p v-if="!cartItems.length">Cart is empty</p>
@@ -53,7 +54,7 @@
 </div>
     <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <script scr="js/comp.js"></script>
+    <script src="js/comp.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

@@ -45,10 +45,10 @@ const app = new Vue({
                     }
                 })
         },
-        filter(){
-            let regexp = new RegExp(this.userSearch, 'i');
-            this.filtered =  this.filtered.filter(el => regexp.test(el.product_name));
-        }
+        /* filter(userSearch){
+            let regexp = new RegExp(userSearch, 'i');
+            this.filtered =  this.products.filter(el => regexp.test(el.product_name));
+        } */
     },
     mounted(){
         this.getJson(`${API + this.cartUrl}`)
