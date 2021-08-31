@@ -1,0 +1,24 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid #000;
+    background: url(../img/kotenok_za_kompyuterom.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.text {  
+    position: absolute; 
+    color:aliceblue;
+    text-align: center;
+    font-size: 65px;
+    right: 25%;
+    top: 5%;
+}

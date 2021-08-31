@@ -1,0 +1,42 @@
+[
+  {
+    "id_product": 1,
+    "product_name": "T-shirt",
+    "price": 16
+  },
+  {
+    "id_product": 2,
+    "product_name": "Girl in red",
+    "price": 200
+  },
+  {
+    "id_product": 3,
+    "product_name": "Beardmen",
+    "price": 500
+  },
+  {
+    "id_product": 4,
+    "product_name": "Dress",
+    "price": 80
+  },
+  {
+    "id_product": 5,
+    "product_name": "Dress striped",
+    "price": 86
+  },
+  {
+    "id_product": 6,
+    "product_name": "Panama",
+    "price": 5
+  },
+  {
+    "id_product": 7,
+    "product_name": "Fashion pants",
+    "price": 15
+  },
+  {
+    "id_product": 8,
+    "product_name": "Man in shorts",
+    "price": 3000000
+  }
+]
