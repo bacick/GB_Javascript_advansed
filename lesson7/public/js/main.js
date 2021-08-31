@@ -1,22 +1,11 @@
-/* const linkListSection = document.getElementById('menu');
-const menu = [
-  { link: '#', name: 'Главная'},
-  { link: '#Section_2', name: 'Продукт'},
-  { link: '#', name: 'Контакты'}
-];
-const renderMenu = (link, name) => `<a class="menuStyle" href="${link}">${name}</a>`;//добавление класса для стилизации меню
 
-const renderLinkList = (list) => {
-const linkList = list.map(item => renderMenu(item.link, item.name));
-document.querySelector('.menu').innerHTML = linkList.join('');
-}
-renderLinkList(menu);*/
 const API = 'https://raw.githubusercontent.com/GeekBrainsTutorial/online-store-api/master/responses'; 
 
 const app = new Vue({
     el: '#app',
     data: {
         userSearch: '',
+        showMessage: false
     },
     methods: {
         getJson(url){
@@ -68,7 +57,7 @@ const app = new Vue({
                     this.getJson('/api/cart')
                         .then(data => {
                             for (let item of data.contents) {
-                                item.imgPath = `img/${item.product_name}_cart.png`;
+                                // item.imgPath = `img/${item.product_name}_cart.png`;
                                 this.$data.cartItems.push(item);
                             }
                         })

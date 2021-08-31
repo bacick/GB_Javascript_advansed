@@ -1,21 +1,5 @@
 {
     "amount": 46600,
     "countGoods": 2,
-    "contents": [
-        {
-            "quantity": 1,
-            "id_product": 3,
-            "product_name": "Beardmen",
-            "price": 500,
-            "imgPath": "img/Beardmen.png"
-        },
-        {
-            "quantity": 2,
-            "id_product": 4,
-            "product_name": "Dress",
-            "price": 80,
-            "imgPath": "img/Dress_cart.png"
-        }
-        
-    ]
+    "contents": []
 }

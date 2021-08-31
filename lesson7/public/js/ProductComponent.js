@@ -4,7 +4,8 @@ Vue.component('products', {
            catalogUrl: '/catalogData.json',
            filtered: [],
            products: [],
-           imgProduct: 'https://placehold.it/200x150'
+           imgProduct: 'https://placehold.it/200x150',
+           
        }
    },
     mounted(){
@@ -22,6 +23,8 @@ Vue.component('products', {
             let regexp = new RegExp(userSearch, 'i');
             this.filtered = this.products.filter(el => regexp.test(el.product_name));
         }
+
+        
     },
    template: `<div class="items">
                 <product v-for="item of filtered" 
@@ -36,7 +39,7 @@ Vue.component('product', {
     props: ['product', 'img'],
     template: `
     <div class="item">
-                <a class="link_item" href="singlepage.html">
+                <a class="link_item" href="error.html">
                 <div class="item_card">
                     <div class="item_image">
                     <img :src="img" alt="Photo" >
@@ -45,8 +48,8 @@ Vue.component('product', {
                     <p class="item_prise">$ {{product.price}}</p>
                 </div></a>
                 <div class="add_block" @click="$emit('add-product', product)">
-                    <a href="#" class="link_cart" >
-                    <img src="img/link_cart.png" alt="" />
+                    <a  class="link_cart" >
+                    <img src="img/link_cart.png" alt="" >
                     <p class="link_cart_text" >Add to Cart</p>
                     </a>
                 </div>
@@ -54,3 +57,6 @@ Vue.component('product', {
             
     `
 })
+
+
+

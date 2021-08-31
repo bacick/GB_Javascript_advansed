@@ -16,52 +16,52 @@ Vue.component('filter-el', {
                     <div class="pointer"></div>
                     <div class="mega-menu-block">
                       <h3 class="mega-menu_h3">
-                        <a class="mega-menu_link_h3" href="product.html">Women</a>
+                        <a class="mega-menu_link_h3" href="error.html">Women</a>
                       </h3>
                       <hr class="mega-menu_line" />
                       <ul class="mega-menu_list">
                         <li class="mega-menu_li">
-                          <a class="mega-menu_link" href="singlepage.html"
+                          <a class="mega-menu_link" href="error.html"
                             >Dresses</a
                           >
                         </li>
                         <li class="mega-menu_li">
-                          <a class="mega-menu_link" href="singlepage.html"
+                          <a class="mega-menu_link" href="error.html"
                             >Tops</a
                           >
                         </li>
                         <li class="mega-menu_li">
-                          <a class="mega-menu_link" href="singlepage.html"
+                          <a class="mega-menu_link" href="error.html"
                             >Sweaters/Knits</a
                           >
                         </li>
                         <li class="mega-menu_li">
-                          <a class="mega-menu_link" href="singlepage.html"
+                          <a class="mega-menu_link" href="error.html"
                             >Jackets/Coats</a
                           >
                         </li>
                         <li class="mega-menu_li">
-                          <a class="mega-menu_link" href="singlepage.html"
+                          <a class="mega-menu_link" href="error.html"
                             >Blazers</a
                           >
                         </li>
                         <li class="mega-menu_li">
-                          <a class="mega-menu_link" href="singlepage.html"
+                          <a class="mega-menu_link" href="error.html"
                             >Denim</a
                           >
                         </li>
                         <li class="mega-menu_li">
-                          <a class="mega-menu_link" href="singlepage.html"
+                          <a class="mega-menu_link" href="error.html"
                             >Skirts/Shorts</a
                           >
                         </li>
                         <li class="mega-menu_li">
-                          <a class="mega-menu_link" href="singlepage.html"
+                          <a class="mega-menu_link" href="error.html"
                             >Accessories</a
                           >
                         </li>
                         <li class="mega-menu_li">
-                          <a class="mega-menu_link" href="singlepage.html"
+                          <a class="mega-menu_link" href="error.html"
                             >Leggings/Pant</a
                           >
                         </li>
@@ -69,22 +69,22 @@ Vue.component('filter-el', {
                     </div>
                     <div class="mega-menu-block">
                       <h3 class="mega-menu_h3">
-                        <a class="mega-menu_link_h3" href="product.html">Men</a>
+                        <a class="mega-menu_link_h3" href="error.html">Men</a>
                       </h3>
                       <hr class="mega-menu_line" />
                       <ul class="mega-menu_list">
                         <li class="mega-menu_li">
-                          <a class="mega-menu_link" href="singlepage.html"
+                          <a class="mega-menu_link" href="error.html"
                             >Dresses</a
                           >
                         </li>
                         <li class="mega-menu_li">
-                          <a class="mega-menu_link" href="singlepage.html"
+                          <a class="mega-menu_link" href="error.html"
                             >Tops</a
                           >
                         </li>
                         <li class="mega-menu_li">
-                          <a class="mega-menu_link" href="singlepage.html"
+                          <a class="mega-menu_link" href="error.html"
                             >Sweaters/Knits</a
                           >
                         </li>
@@ -106,10 +106,5 @@ Vue.component('filter-el', {
     
     
     
-    /* <form action="#" class="search-form" @submit.prevent="$parent.$refs.products.filter(userSearch)">
-                <input type="text" placeholder="поиск" class="search-field" v-model="userSearch">
-                <button type="submit" class="btn-search">
-                    <i class="fas fa-search"></i>
-                </button>
-            </form> */`
+    `
 })

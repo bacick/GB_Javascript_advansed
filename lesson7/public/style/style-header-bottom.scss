@@ -293,7 +293,7 @@ select:focus {
 .menu-block {
     display: flex;
     justify-content: center;
-
+    
     .menu {
         position: relative;
         width: 60%;
@@ -323,13 +323,14 @@ select:focus {
             padding-right: 45px;
             padding-bottom: 22px;
         }
+       
     }
 
 
     .mega-menu {
         position: absolute;
-        top: 35px;
-        left: 75px;
+        top: 155px;
+        // left: 75px;
         display: none;
         justify-content: space-around;
         background-color: #ffffff;
@@ -340,13 +341,12 @@ select:focus {
 
 
     }
-
-    .menu:hover .mega-menu {
-        display: flex;
-    }
-
+    
 }
 
+.menu-block:hover .mega-menu {
+    display: flex;
+}
 .mega-menu-block {
     .mega-menu_h3 {
         padding-bottom: 8px;

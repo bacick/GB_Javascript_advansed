@@ -365,8 +365,7 @@ select:focus {
 
 .menu-block .mega-menu {
   position: absolute;
-  top: 35px;
-  left: 75px;
+  top: 155px;
   display: none;
   -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -377,7 +376,7 @@ select:focus {
   padding-bottom: 20px;
 }
 
-.menu-block .menu:hover .mega-menu {
+.menu-block:hover .mega-menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
