@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/style-header-bottom.css" />
+    <link rel="icon" href="img/icon.png" />
+    <title>Brand</title>
+    <script
+      src="https://kit.fontawesome.com/fc6a861f13.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div  id="app"> 
+      <header>
+        <!-- <headercomp ref="header"></headercomp>  -->
+        <div>
+          <div class="header container">
+          <div class="logo_search">
+            <div class="logo">
+              <a href="Index.html"><img alt="logo" src="img/Logo%20.png" /></a>
+            </div>
+            <filter-el></filter-el>
+          </div>
+          <div class="cart_account" >
+            <div class="cart">
+              <a href="error.html"><img alt="cart" src="img/cart.png" /></a>
+              <cart ref="cart"></cart> 
+            </div>
+            <div class="account">
+              <a class="account_link" href="error.html"
+                >My account &nbsp;<i
+                  class="fas fa-caret-down browse-angle-down" ></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="line"></div>
+        <menunav></menunav>
+      </div>
+      </header>
+      <!-- CONTENT -->
+      <aside>
+        <topbaner></topbaner>
+      </aside>
+      <section>
+        <div class="content container" >
+          <offerblock></offerblock>
+          <div class="items_block">
+            <h3 class="items_block_h3">Fetured Items</h3>
+            <p class="items_block_p">
+              Shop for items based on what we featured in this week
+            </p>
+            <error ref="error"></error>
+            <products ref="products"></products>
+            
+            <div class="bottom_all-product">
+              <a class="link_all-product" href="error.html">Browse All Product &nbsp;<i class="fas fa-long-arrow-alt-right"></i></a>
+            </div>
+          </div>
+          <bottombaner></bottombaner>
+          <message-add-cart ref="message-add-cart">454654</message-add-cart> 
+        </div>
+      </section>
+
+      <!--SUBSCRIBE-BLOCK -->
+      <section>
+        <subscriber></subscriber>
+      </section>
+      <!--BOTTOM-MENU-BOX -->
+      <section>
+        <bottommenu></bottommenu>
+      </section>
+
+      <footer>
+        <footercomp></footercomp>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+            <script src="js/CartComponent.js"></script>
+            <script src="js/MenuNavComp.js"></script>
+            <script src="js/TopBanerComp.js"></script>
+            <script src="js/ProductComponent.js"></script>
+            <script src="js/OfferComp.js"></script>
+            <script src="js/BottomBanerComp.js"></script>
+            <script src="js/SubscriberComp.js"></script>
+            <script src="js/BottomMenuComp.js"></script>
+            <script src="js/FooterComp.js"></script>
+            <script src="js/MegaMenuComp.js"></script>
+            <script src="js/FilterComp.js"></script>
+            <script src="js/ErrorComp.js"></script>
+            <script src="js/main.js"></script>
+  </body>
+</html>
